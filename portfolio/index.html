@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+<body>
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark " id="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#bntu_h1">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#portfolio_block">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section>
+        <div class="container-fluid aboutMe_container">
+            <div class="row no-gutter">
+                <div class="col-md-12">
+                    <div class="aboutMe_block">
+                        <div class="overflow_blue"></div>
+                        <!--                        <img class="aboutMe_backgroundImage" src="asserts/img/background.jpg" alt="background">-->
+                        <div class="row text-center">
+                            <div class="col-12">
+                                <h1 class="aboutMe_h1">Pavel Zharski</h1>
+                            </div>
+                            <div class="col-12">
+                                <h1 class="aboutMe_h1">Junior Front-end developer</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid education_container " id="bntu_h1">
+            <div class="row no-gutter mr-auto ml-auto">
+                <div class="col-md-12">
+                    <div class="education_block">
+                        <div class="overflow_dark"></div>
+                        <div class="row text-center">
+                            <div class="col-12">
+                                <h1 class="bntu_h1 _anim-items _anim-no-hide">About me</h1>
+                            </div>
+                            <div class="col-12 ">
+                                <h3 class=" bntu_h1 _anim-items _anim-no-hide">
+                                    I am a Front-developer based in Toruń. Poland.
+                                </h3>
+                            </div>
+                            <div class="col-3"></div>
+                            <div class="col-6 ">
+                                <p id="" class="bntu_p _anim-items _anim-no-hide">I like to turn complex tasks into
+                                    simple, beautiful and intuitive designs. When I'm not coding, flipping through
+                                    Instagram, or clicking pixels, you'll find me reading books, playing guitar, or
+                                    listening to music.</p>
+                            </div>
+                            <div class="col-3"></div>
+                            <!--                            <div class="col-12">-->
+                            <!--                                <button type="button" class="btn btn-dark bntu_button _anim-items btn-sx"><a-->
+                            <!--                                        target="_blank" class="_anim-items bntu_link" href="https://en.bntu.by/">About-->
+                            <!--                                    university</a></button>-->
+                            <!--                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="portfolio_block"></div>
+        <div class="container projects_container" >
+            <div class="row text-center projects_projectsCol1 " id="portfolios">
+                <div class="col-12">
+                    <h1 class="projects_h1" >Portfolios</h1>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4" id="projects_container">
+                    <div class="col projects_projectsCol1" id="projects_col1">
+                        <div class="card h-100">
+                            <img src="asserts/img/BYPOL.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">BYPOL</h5>
+                                <p class="card-text">TThis site was developed with a partner for the organization BYPOL.
+                                    My partner and me, we volunteered to develop a website for them. We made it, but it
+                                    didn't go any further.</p>
+                                <p><b>Technologies: </b>HTML, CSS, JS, Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card h-100 projects_projectsCol2" id="projects_col2">
+                            <img src="asserts/img/SN.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Social Network</h5>
+                                <p class="card-text">TI've been doing this training project for several months. It's my
+                                    most difficult project. This is a simple social network where you can chat, make
+                                    posts, put your photo and information about yourself.</p>
+                                <p><b>Technologies: </b>React, Redux, Thunk, TS, HTML, CSS, AntDesign, RestAPI, Axinos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 projects_projectsCol3" id="projects_col3">
+                            <img src="asserts/img/rabbit.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Feed store</h5>
+                                <p class="card-text">This one is being developed for my father. He has a feed store. To
+                                    increase sales, I decided to develop an online store for it.</p>
+                                <p><b>Technologies: </b>React, GraphQL, MongoDB, MaterialUI, HTML, TS, CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary projects_button" type="button">See more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid quote_container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="quote_h1">My favorite quote</h1>
+                    <h3 class="quote_h1"><b>"The road will rise to meet the one who walks it"</b></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1>Contacts</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container-fluid">
+        <div class="row text-center">'
+            <div class="col-12">
+                <h3>Footer</h3>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--    scripts-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
