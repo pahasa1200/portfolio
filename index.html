@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+<body>
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark " id="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#bntu_h1">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#portfolio_block">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section>
+        <div class="container-fluid aboutMe_container">
+            <div class="row no-gutter">
+                <div class="col-md-12">
+                    <div class="aboutMe_block">
+                        <div class="overflow_blue"></div>
+                        <!--                        <img class="aboutMe_backgroundImage" src="asserts/img/background.jpg" alt="background">-->
+                        <div class="row text-center">
+                            <div class="col-12">
+                                <h1 class="aboutMe_h1">Pavel Zharski</h1>
+                            </div>
+                            <div class="col-12">
+                                <h1 class="aboutMe_h1">Junior Front-end developer</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid education_container " id="bntu_h1">
+            <div class="row no-gutter mr-auto ml-auto">
+                <div class="col-md-12">
+                    <div class="education_block">
+                        <div class="overflow_dark"></div>
+                        <div class="row text-center">
+                            <div class="col-12">
+                                <h1 class="bntu_h1 _anim-items _anim-no-hide">About me</h1>
+                            </div>
+                            <div class="col-12 ">
+                                <h3 class=" bntu_h1 _anim-items _anim-no-hide">
+                                    I am a Front-developer based in Toruń. Poland.
+                                </h3>
+                            </div>
+                            <div class="col-3"></div>
+                            <div class="col-6 ">
+                                <p id="" class="bntu_p _anim-items _anim-no-hide">I like to turn complex tasks into
+                                    simple, beautiful and intuitive designs. When I'm not coding, flipping through
+                                    Instagram, or clicking pixels, you'll find me reading books, playing guitar, or
+                                    listening to music.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="portfolio_block"></div>
+        <div class="container projects_container">
+            <div class="row text-center projects_projectsCol1 " id="portfolios">
+                <div class="col-12">
+                    <div class="header-h1"><h1 class="projects_h1">Portfolios</h1></div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4" id="projects_container">
+                    <div class="col projects_projectsCol1" id="projects_col1">
+                        <div class="card h-100">
+                            <img src="asserts/img/BYPOL.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">BYPOL</h5>
+                                <p class="card-text">This site was developed with a partner for the organization BYPOL.
+                                    My partner and me, we volunteered to develop a website for them. We made it, but it
+                                    didn't go any further.</p>
+                                <p><b>Technologies: </b>HTML, CSS, JS, Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card h-100 projects_projectsCol2" id="projects_col2">
+                            <img src="asserts/img/SN.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Social Network</h5>
+                                <p class="card-text">I've been doing this training project for several months. It's my
+                                    most difficult project. This is a simple social network where you can chat, make
+                                    posts, put your photo and information about yourself.</p>
+                                <p><b>Technologies: </b>React, Redux, Thunk, TS, HTML, CSS, AntDesign, RestAPI, Axinos
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 projects_projectsCol3" id="projects_col3">
+                            <img src="asserts/img/rabbit.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Feed store</h5>
+                                <p class="card-text">This one is being developed for my father. He has a feed store. To
+                                    increase sales, I decided to develop an online store for it.</p>
+                                <p><b>Technologies: </b>React, GraphQL, MongoDB, MaterialUI, HTML, TS, CSS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <a href="https://github.com/pahasa1200" target="_blank" class="shine-button">See more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid quote_container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="quote_h1">My favorite quote</h1>
+                    <h3 class="quote_h1"><b>"The road will rise to meet the one who walks it"</b></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid contacts_container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="header-h1"><h1 class="contacts_h1">Contacts</h1></div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-4">
+                    <h2 class="contacts_h3">If you want to work with me, you can contact with me in several ways</h2>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-6 contacts_col_links">
+                    <div class="contacts_github _anim-items _anim-no-hide" id="contacts">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                             class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                        <p>https://github.com/pahasa1200</p>
+                    </div>
+                    <div class="contacts_gmail _anim-items _anim-no-hide">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                             class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                        </svg>
+                        <p>zharskiypavel16@gmail.com</p>
+                    </div>
+                    <div class="contacts_linkedin _anim-items _anim-no-hide">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                             class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                        </svg>
+                        <p>https://www.linkedin.com/in/pavel-zharskiy-b92937195</p>
+                    </div>
+                    <div class="contacts_phone _anim-items _anim-no-hide">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                        </svg>
+                        <p>+48793076694</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container-fluid footer_container">
+        <div class="row text-center">
+            <div class="col-12">
+                <p>Portfolio by Pavel Zharski ©2021</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--    scripts-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
