@@ -179,21 +179,21 @@ body{
 .projects_button{
     margin-top: 20px;
 }
-.projects_projectsCol1{
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
-}
-.projects_projectsCol2{
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 0.8s ease 0.4s;
-}
-.projects_projectsCol3{
-    transform: translate(0px, 120%);
-    opacity: 0;
-    transition: all 0.8s ease 0.8s;
-}
+/*.projects_projectsCol1{*/
+/*    transform: translate(0px, 120%);*/
+/*    opacity: 0;*/
+/*    transition: all 0.8s ease 0s;*/
+/*}*/
+/*.projects_projectsCol2{*/
+/*    transform: translate(0px, 120%);*/
+/*    opacity: 0;*/
+/*    transition: all 0.8s ease 0.4s;*/
+/*}*/
+/*.projects_projectsCol3{*/
+/*    transform: translate(0px, 120%);*/
+/*    opacity: 0;*/
+/*    transition: all 0.8s ease 0.8s;*/
+/*}*/
 .projects_projectsCol1._active {
     transform: translate(0px, 0px);
     opacity: 1;
@@ -381,5 +381,25 @@ body{
 .contacts_phone > p{
     margin-left: 10px;
 }
-
+html, body {
+    width: 100%;
+    margin: 0;
+}
+@media (max-width: 567px) {
+    .row{
+        --bs-gutter-x: 0!important;
+    }
+    .contacts_github{
+        margin-top: 10px;
+    }
+    .contacts_h1{
+        margin-top: 0;
+    }
+    .contacts_h3{
+        margin-top: 30px;
+    }
+}
+.col-md-6.rabbitCol{
+    margin-top: 30px;
+}
 
